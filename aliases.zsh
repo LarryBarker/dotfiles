@@ -14,7 +14,7 @@ alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
 
 # Laravel
-alias a="php artisan"
+alias art="php artisan"
 alias ams="php artisan migrate:fresh --seed"
 
 # PHP
