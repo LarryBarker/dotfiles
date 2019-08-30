@@ -12,6 +12,8 @@ alias c="clear"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
+alias ..="cd .."
+
 
 # Laravel
 alias art="php artisan"
@@ -30,6 +32,7 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
+alias vm="ssh vagrant@127.0.0.1 -p 2222"
 
 # Docker
 alias docker-composer="docker-compose"
@@ -49,3 +52,5 @@ alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
 alias gnuke="git clean -df && git reset --hard"
+alias nah="git reset --hard && git clean -df"
+alias wip="git add . && git commit -m 'wip'"
