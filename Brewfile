@@ -1,8 +1,8 @@
 # Taps
-tap 'caskroom/cask-cask'
-tap 'caskroom/cask-eid'
-tap 'caskroom/cask-fonts'
-tap 'caskroom/cask-versions'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-eid'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
