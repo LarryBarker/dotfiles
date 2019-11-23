@@ -1,5 +1,5 @@
 # Taps
-tap 'homebrew/cask-cask'
+tap 'homebrew/cask'
 tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
@@ -26,7 +26,7 @@ brew 'zsh-completions'
 # Development
 brew 'php'
 brew 'imagemagick'
-brew 'mysql'
+brew 'mysql@5.7'
 brew 'nginx'
 brew 'node'
 brew 'redis'
