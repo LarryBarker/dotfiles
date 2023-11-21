@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -41,8 +40,8 @@ brew 'yarn'
 # Apps
 
 cask 'alfred'
+cask 'cursor'
 cask 'firefox-developer-edition'
-cask 'google-backup-and-sync'
 cask 'sequel-pro'
 cask 'expressvpn'
 
@@ -72,7 +71,6 @@ cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
-cask 'zwift'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -84,5 +82,4 @@ cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
