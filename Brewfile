@@ -4,57 +4,79 @@ tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+tap 'stripe/stripe-cli'
 
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # "cat" on steroids
+brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'ffmpeg'
+brew 'gh'
 brew 'git'
-brew 'gnupg2'
 brew 'grep'
+brew 'httpie'
+brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
-brew 'zplug' # ZSH Plugin Manager
-brew 'zsh'
-brew 'zsh-completions'
+brew 'stripe/stripe-cli/stripe'
+brew 'stripe/stripe-mock/stripe-mock'
+brew 'svn' # Needed to install fonts
+
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
 
 # Development
-brew 'php'
-brew 'imagemagick'
-brew 'mysql@5.7'
 brew 'nginx'
 brew 'node'
 brew 'redis'
+brew 'yarn'
 
 # Apps
+
 cask 'alfred'
-cask 'discord'
 cask 'firefox-developer-edition'
 cask 'google-backup-and-sync'
-cask 'google-chrome'
-cask 'gpg-suite'
-cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
 cask 'sequel-pro'
+cask 'expressvpn'
+
+cask '1password'
+cask 'caffeine'
+cask 'dbngin'
+cask 'discord'
+cask 'docker'
+cask 'figma'
+cask 'github'
+cask 'google-chrome'
+cask 'helo'
+cask 'herd'
+cask 'imageoptim'
+cask 'insomnia'
+cask 'pastebot'
+cask 'ray'
+cask 'raycast'
+cask 'readdle-spark'
+cask 'screenflow'
 cask 'slack'
+cask 'tableplus'
+cask 'the-unarchiver'
+cask 'tinkerwell'
 cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+cask 'tunnelbear'
+cask 'tuple'
 cask 'visual-studio-code'
+cask 'zoom'
+cask 'zwift'
 
 # Quicklook
-cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
 
 # Fonts
 cask 'font-lato'
