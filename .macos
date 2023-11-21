@@ -916,13 +916,6 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
-# Tweetbot.app                                                                #
-###############################################################################
-
-# Bypass the annoyingly slow t.co URL shortener
-defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
-
-###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
@@ -945,7 +938,6 @@ for app in "Activity Monitor" \
     "SystemUIServer" \
     "Terminal" \
     "Transmission" \
-    "Tweetbot" \
     "Twitter" \
     "iCal"; do
     killall "${app}" &> /dev/null
