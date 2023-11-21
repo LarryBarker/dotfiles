@@ -43,6 +43,7 @@ cask 'alfred'
 cask 'cursor'
 cask 'firefox-developer-edition'
 cask 'sequel-pro'
+cask 'spectacle'
 cask 'expressvpn'
 
 cask '1password'
