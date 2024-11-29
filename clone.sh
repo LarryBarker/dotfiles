@@ -11,10 +11,16 @@ LARAVEL=$CODE/laravel
 git clone git@github.com:blade-ui-kit/blade-ui-kit.com.git $SITES/blade-ui-kit.com
 git clone git@github.com:blade-ui-kit/demo.git $SITES/demo.blade-ui-kit.com
 git clone git@github.com:driesvints/driesvints.com.git $SITES/driesvints.com
+git clone git@github.com:laravel/envoyer.git $SITES/envoyer
+git clone git@github.com:eventyio/eventy.io.git $SITES/eventy.io
+git clone git@github.com:laravel/forge.git $SITES/forge
 git clone git@github.com:fullstackeurope/fullstackeurope.com.git $SITES/fullstackeurope.com
 git clone git@github.com:laravel/laravel.com.git $SITES/laravel.com
 git clone git@github.com:laravelio/laravel.io.git $SITES/laravel.io
 git clone git@github.com:laravelio/paste.laravel.io.git $SITES/paste.laravel.io
+git clone git@github.com:laravel/nova.laravel.com.git $SITES/nova
+git clone git@github.com:laravel/spark.laravel.com.git $SITES/spark.laravel.com
+git clone git@github.com:laravel/vapor.git $SITES/vapor
 
 # Personal
 git clone git@github.com:lmsqueezy/laravel.git $CODE/lmsqueezy-laravel
@@ -55,10 +61,13 @@ git clone git@github.com:laravel/lumen-framework.git $LARAVEL/lumen-framework
 git clone git@github.com:laravel/nova.git $LARAVEL/nova
 git clone git@github.com:laravel/octane.git $LARAVEL/octane
 git clone git@github.com:laravel/package-template.git $LARAVEL/package-template
+git clone git@github.com:laravel/pail.git $LARAVEL/pail
 git clone git@github.com:laravel/passport.git $LARAVEL/passport
 git clone git@github.com:laravel/pennant.git $LARAVEL/pennant
 git clone git@github.com:laravel/pint.git $LARAVEL/pint
 git clone git@github.com:laravel/precognition.git $LARAVEL/precognition
+git clone git@github.com:laravel/prompts.git $LARAVEL/prompts
+git clone git@github.com:laravel/pulse.git $LARAVEL/pulse
 git clone git@github.com:laravel/sail.git $LARAVEL/sail
 git clone git@github.com:laravel/sail-server.git $LARAVEL/sail-server
 git clone git@github.com:laravel/sanctum.git $LARAVEL/sanctum
@@ -73,6 +82,8 @@ git clone git@github.com:laravel/telescope.git $LARAVEL/telescope
 git clone git@github.com:laravel/tinker.git $LARAVEL/tinker
 git clone git@github.com:laravel/ui.git $LARAVEL/ui
 git clone git@github.com:laravel/valet.git $LARAVEL/valet
+git clone git@github.com:laravel/vapor-cli.git $LARAVEL/vapor-cli
+git clone git@github.com:laravel/vapor-core.git $LARAVEL/vapor-core
 git clone git@github.com:laravel/vapor-ui.git $LARAVEL/vapor-ui
 git clone git@github.com:laravel/vite-plugin.git $LARAVEL/vite-plugin
 git clone git@github.com:livewire/volt.git $LARAVEL/volt

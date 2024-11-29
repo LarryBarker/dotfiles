@@ -1,9 +1,9 @@
 # Taps
 tap 'homebrew/cask'
+tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
 tap 'stripe/stripe-cli'
 
 # Binaries
@@ -32,40 +32,53 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
+brew 'php'
+brew 'imagemagick'
+brew 'mysql@5.7'
 brew 'nginx'
 brew 'node'
 brew 'redis'
+
+# Apps
+cask 'alfred'
+cask 'discord'
+cask 'firefox-developer-edition'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'gpg-suite'
+cask 'insomnia'
+cask 'java'
+cask 'mysqlworkbench'
+cask 'sequel-pro'
+cask 'slack'
+cask 'transmit'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask 'visual-studio-code'
+brew 'imagemagick'
 brew 'yarn'
 
 # Apps
-
-cask 'alfred'
-cask 'cursor'
-cask 'firefox-developer-edition'
-cask 'linear-linear'
-cask 'rectangle'
-cask 'sequel-pro'
-cask 'expressvpn'
-
 cask '1password'
+brew '1password-cli'
 cask 'caffeine'
-cask 'dbngin'
 cask 'discord'
 cask 'docker'
 cask 'figma'
+cask 'firefox'
 cask 'github'
 cask 'google-chrome'
 cask 'helo'
 cask 'herd'
+cask 'httpie'
 cask 'imageoptim'
-cask 'insomnia'
 cask 'pastebot'
-cask 'ray'
-cask 'raycast'
 cask 'readdle-spark'
 cask 'screenflow'
 cask 'slack'
 cask 'tableplus'
+cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
@@ -85,3 +98,13 @@ cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-serif-pro'
+
+# Mac App Store
+# mas 'Byword', id: 420212497
+# mas 'Giphy Capture', id: 668208984
+# mas 'Keynote', id: 409183694
+# mas 'MyWoosh', id: 1498889644
+# mas 'Numbers', id: 409203825
+# mas 'Speedtest', id: 1153157709
+# mas 'Spring', id: 1508706541
+# mas 'Things', id: 904280696
